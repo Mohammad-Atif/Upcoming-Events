@@ -3,4 +3,7 @@
     <string name="add_events">ADD EVENTS</string>
     <string name="view_events">VIEW EVENTS</string>
     <string name="edit_events">EDIT EVENTS</string>
+    <string name="enter_the_date">Enter the date</string>
+    <string name="add_event">ADD EVENT</string>
+    <string name="dd_mm_yy">dd/mm/yy</string>
 </resources>
