@@ -15,5 +15,10 @@ class EventsHandlingActivity : AppCompatActivity() {
             val intent=Intent(this,EventAdder::class.java)
             startActivity(intent)
         }
+        viewbtn.setOnClickListener {
+            val intentview=Intent(this,EventviewingActivity::class.java)
+            startActivity(intentview)
+
+        }
     }
 }
