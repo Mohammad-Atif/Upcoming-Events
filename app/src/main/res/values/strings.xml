@@ -8,4 +8,6 @@
     <string name="dd_mm_yy">dd/mm/yy</string>
     <string name="describe_event_here">Describe event here</string>
     <string name="your_events">YOUR EVENTS</string>
+    <string name="next_view">NEXT VIEW</string>
+    <string name="next_event">next event</string>
 </resources>

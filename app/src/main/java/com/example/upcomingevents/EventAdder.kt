@@ -11,7 +11,7 @@ class EventAdder : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_event_adder)
-        val pref=getPreferences(Context.MODE_PRIVATE)
+        val pref=getSharedPreferences("act1",0)
 
         var serials=pref.getInt(serialkey,0)
 
@@ -28,7 +28,7 @@ class EventAdder : AppCompatActivity() {
                 editor.putInt(serialkey,serials+2)
                 editor.apply()
                 editor.commit()
-                serialno= serialno+2
+                serials=serials+2
                 datetxt.text.clear()
                 describetxt.text.clear()
 
