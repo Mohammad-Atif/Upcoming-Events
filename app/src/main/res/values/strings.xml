@@ -10,4 +10,8 @@
     <string name="your_events">YOUR EVENTS</string>
     <string name="next_view">NEXT VIEW</string>
     <string name="next_event">next event</string>
+    <string name="add">Add</string>
+    <string name="view">View</string>
+    <string name="edit">Edit</string>
+    <string name="todo">TODO</string>
 </resources>
