@@ -39,7 +39,7 @@
         android:id="@+id/msgfordelete"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="88dp"
+        android:layout_marginTop="78dp"
         android:fontFamily="@font/acme"
         android:textAlignment="center"
         android:textColor="@color/colorAccent"
@@ -53,15 +53,15 @@
         android:id="@+id/deletebtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="184dp"
-        android:fontFamily="@font/acme"
+        android:layout_marginBottom="25dp"
         android:background="@drawable/rounded_corners"
+        android:fontFamily="@font/acme"
         android:text="@string/delete"
         android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/msgfordelete" />
+        app:layout_constraintStart_toStartOf="parent" />
 
     <Button
         android:id="@+id/nexteditbtn"
