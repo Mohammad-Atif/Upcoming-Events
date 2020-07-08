@@ -22,12 +22,8 @@ class EventsHandlingActivity : AppCompatActivity() {
 
         }
         editbtn.setOnClickListener {
-            val p=getSharedPreferences("act1",0)
-            val pedit=p.edit()
-            pedit.clear()
-            pedit.apply()
-            pedit.commit()
-            Toast.makeText(this,"EVENTS CLEARED", Toast.LENGTH_LONG).show()
+            val intentedit=Intent(this,edit_activity::class.java)
+            startActivity(intentedit)
 
 
         }

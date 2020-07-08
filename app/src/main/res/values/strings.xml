@@ -17,4 +17,6 @@
     <string name="message">Message</string>
     <string name="next">Next</string>
     <string name="date">Date</string>
+    <string name="events">EVENTS</string>
+    <string name="delete">DELETE</string>
 </resources>
